@@ -8,13 +8,42 @@ html {
 }
 
 body{
-	margin:40px auto;
-	max-width:650px;
+	margin:0px auto;
 	line-height:1.6;
 	font-size:18px;
-	color:#444;
-	padding:0 10px;
+	color:#FFF;
 	font-family: helvetica, sans-serif;
+}
+
+
+.peek_window{
+ height: 90vh;
+position: relative
+padding: 0;
+}
+
+.peek_window h1{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	font-size: 10vw;
+}
+
+
+.contact_info{
+	width: 70%;
+	padding: 10 px;
+	margin-left:auto;
+}
+
+
+.blue_background{
+background-color: rgba(0,0,255,0.9);
+width: 100%;
+margin: 0;
+padding: 0;
+top: 0;
+left: 0;
 }
 
 h1,h2,h3{line-height:1.2}
