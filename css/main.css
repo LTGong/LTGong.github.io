@@ -1,53 +1,52 @@
-.cropped-background{
-	background: url(../img/diver_hi_res.jpg) no-repeat center top fixed;
+.cropped-background {
+  background: url(../img/diver_hi_res.jpg) no-repeat center top fixed;
+  background-size: cover;
 }
 
-body{
-	margin:0px auto;
-	line-height:1.6;
-	font-size:18px;
-	color:#FFF;
-	font-family: helvetica, sans-serif;
-	display: flex;
-	flex-flow: column;
+body {
+  margin: 0px auto;
+  line-height: 1.6;
+  font-size: 1.5em;
+  color: #FFF;
+  font-family: helvetica, sans-serif;
+  display: flex;
+  flex-flow: column;
 }
 
-body > div {
-display: inline-block;
+body>div {
+  display: inline-block;
 }
 
-.peek_window{
-	height: 70vh;
-	flex: 0 0 100%;
-	vertical-align: bottom;
-	display: flex;
-	border: 2px solid #f00;
-	position: relative;
+.peek_window {
+  height: 70vh;
+  flex: 0 0 100%;
+  vertical-align: bottom;
+  display: flex;
+  position: relative;
 }
 
-.namebox{
-	font-size: 20vh;
-	line-height: 1.0;
-	border: 2px solid #0f0;
-	position: absolute;
+.namebox {
+  font-size: 20vh;
+  line-height: 1.0;
+  position: absolute;
   bottom: -0.17em;
-	margin-bottom: 0px;
-	vertical-align: bottom;
+  margin-bottom: 0px;
+  vertical-align: bottom;
 }
 
-
-.contact_info{
-	width: 70%;
-	padding: 10px;
-	margin-left:auto;
+.introduce_yourself {
+  font-size: larger;
+  width: 70%;
+  padding: 10px;
+  margin-left: auto;
 }
 
-
-.blue_background{
-background-color: rgba(0,0,255,0.9);
-width: 100%;
-margin: 0;
-padding: 0;
-top: 0;
-left: 0;
+.blue_background {
+  background-color: rgba(0, 0, 255, 0.8);
+  min-height: 40vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
 }
