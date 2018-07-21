@@ -1,9 +1,6 @@
-
-html {
+.cropped-background{
 	background: url(../img/diver_hi_res.jpg) no-repeat center top fixed;
-	object-position: 50% 0;
 }
-
 
 body{
 	margin:0px auto;
