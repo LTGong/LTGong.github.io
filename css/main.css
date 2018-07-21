@@ -1,11 +1,9 @@
 
-html { 
-  background: url(../img/diver_hi_res.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html {
+	background: url(../img/diver_hi_res.jpg) no-repeat center top fixed;
+	object-position: 50% 0;
 }
+
 
 body{
 	margin:0px auto;
@@ -13,26 +11,37 @@ body{
 	font-size:18px;
 	color:#FFF;
 	font-family: helvetica, sans-serif;
+	display: flex;
+	flex-flow: column;
 }
 
+body > div {
+display: inline-block;
+}
 
 .peek_window{
- height: 90vh;
-position: relative
-padding: 0;
+	height: 70vh;
+	flex: 0 0 100%;
+	vertical-align: bottom;
+	display: flex;
+	border: 2px solid #f00;
+	position: relative;
 }
 
-.peek_window h1{
+.namebox{
+	font-size: 20vh;
+	line-height: 1.0;
+	border: 2px solid #0f0;
 	position: absolute;
-	bottom: 0;
-	left:0;
-	font-size: 10vw;
+  bottom: -0.17em;
+	margin-bottom: 0px;
+	vertical-align: bottom;
 }
 
 
 .contact_info{
 	width: 70%;
-	padding: 10 px;
+	padding: 10px;
 	margin-left:auto;
 }
 
@@ -45,5 +54,3 @@ padding: 0;
 top: 0;
 left: 0;
 }
-
-h1,h2,h3{line-height:1.2}
